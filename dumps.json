@@ -1,0 +1,330 @@
+{
+    "loc": [
+        "Charlie",
+        "Echelon One"
+    ],
+    "towns": [
+        "Echelon One",
+        "Nova Junction",
+        "Ionvale Depot",
+        "Zeroton Creek",
+        "Dustmarch",
+        "Muckspur Terminal"
+    ],
+    "all_towns": [
+        "Echelon One",
+        "Nova Junction",
+        "Ionvale Depot",
+        "Zeroton Creek",
+        "Dustmarch",
+        "Muckspur Terminal",
+        "Zenith"
+    ],
+    "town_data": {
+        "Echelon One": {
+            "size": 25,
+            "highway_to": [
+                "Nova Junction",
+                "Zenith",
+                "Zeroton Creek"
+            ]
+        },
+        "Nova Junction": {
+            "size": 20,
+            "highway_to": [
+                "Echelon One",
+                "Ionvale Depot",
+                "Dustmarch"
+            ]
+        },
+        "Ionvale Depot": {
+            "size": 13,
+            "highway_to": [
+                "Nova Junction",
+                "Zeroton Creek"
+            ]
+        },
+        "Zeroton Creek": {
+            "size": 10,
+            "highway_to": [
+                "Ionvale Depot",
+                "Muckspur Terminal",
+                "Echelon One"
+            ]
+        },
+        "Dustmarch": {
+            "size": 7,
+            "highway_to": [
+                "Echelon One",
+                "Muckspur Terminal"
+            ]
+        },
+        "Muckspur Terminal": {
+            "size": 15,
+            "highway_to": [
+                "Zeroton Creek",
+                "Dustmarch",
+                "Zenith"
+            ]
+        },
+        "Zenith": {
+            "size": 35,
+            "highway_to": [
+                "Nova Junction",
+                "Muckspur Terminal"
+            ]
+        }
+    },
+    "highways": {
+        "Route 25": {
+            "stops": {
+                "Echelon One": {
+                    "distance": 60,
+                    "speed": 60
+                },
+                "Nova Junction": {
+                    "distance": 100,
+                    "speed": 60
+                },
+                "Ionvale Depot": {
+                    "distance": 80,
+                    "speed": 70
+                },
+                "Zeroton Creek": {
+                    "distance": 0,
+                    "speed": 0
+                }
+            }
+        },
+        "Route 74": {
+            "stops": {
+                "Echelon One": {
+                    "distance": 180,
+                    "speed": 75
+                },
+                "Zeroton Creek": {
+                    "distance": 0,
+                    "speed": 0
+                }
+            }
+        },
+        "Route 50": {
+            "stops": {
+                "Zeroton Creek": {
+                    "distance": 120,
+                    "speed": 65
+                },
+                "Muckspur Terminal": {
+                    "distance": 150,
+                    "speed": 75
+                },
+                "Dustmarch": {
+                    "distance": 0,
+                    "speed": 0
+                }
+            }
+        },
+        "Route 88": {
+            "stops": {
+                "Zeroton Creek": {
+                    "distance": 200,
+                    "speed": 90
+                },
+                "Dustmarch": {
+                    "distance": 0,
+                    "speed": 0
+                }
+            }
+        },
+        "Freeway 101": {
+            "stops": {
+                "Echelon One": {
+                    "distance": 150,
+                    "speed": 120
+                },
+                "Zenith": {
+                    "distance": 0,
+                    "speed": 0
+                },
+                "Muckspur Terminal": {
+                    "distance": 0,
+                    "speed": 0
+                }
+            }
+        }
+    },
+    "maps": {
+        "Quadrant Charlie": "\n\t\t\t  Quadrant Charlie\n\t\t\t F101              R25\n\tZ=========X=========E1-----------NJ\n\t||  1      130Mi     | 1  60Mi  1 |\n  F ||  4              R | 2        0 |  R\n  1 XX  0              7 | 0        0 |  2\n  0 ||  M              4 | M        M |  5            \n  1 ||  i                | i   R25  i |      \n\t||       R50         |   /--------ID\n\tMT-------------------ZC--  80Mi\n\t | 1    120Mi       /\n  R  | 5             i /            |                  KEY                      |\n  5  | 0            M / R           | Z: Zenith; E1: Echelon One                |\n  0  | M           0 / 8            | NJ: Nova Junction; ID: Ionvale Depot      |\n\t | i         20 / 8             | ZC: Zeroton Creek; DM: Dustmarch          |\n\tDM--------------                | MT: Muckspur Terminal                     |\n\t\t\tR88                     | R: Route F: Freeway  [X]Mi: Distance (Mi) |\n\t\t\t\t\t\t\t\t\t| X Through Highway Indicates Closed        |\n\t\t\t\t\t\t\t\t\t| NOTE: Map Not to Scale. Distances Approx. | \n"
+    },
+    "stock": {
+        "Echelon One": [
+            "Beef",
+            "Beef",
+            "Beef",
+            "Canned Food",
+            "Canned Food",
+            "Canned Food",
+            "Canned Food",
+            "Corn",
+            "Corn",
+            "Fish",
+            "Potatoes",
+            "Rice",
+            "Water",
+            "Water",
+            "Water",
+            "Water",
+            "Water",
+            "Water",
+            "Water",
+            "Wheat",
+            "Wheat",
+            "Wheat",
+            "Wheat",
+            "Wheat",
+            "Wheat"
+        ],
+        "Nova Junction": [
+            "Canned Food",
+            "Canned Food",
+            "Canned Food",
+            "Potatoes",
+            "Potatoes",
+            "Potatoes",
+            "Rice",
+            "Rice",
+            "Rice",
+            "Rice",
+            "Rice",
+            "Water",
+            "Water",
+            "Water",
+            "Water",
+            "Water",
+            "Water",
+            "Wheat",
+            "Wheat",
+            "Wheat"
+        ],
+        "Ionvale Depot": [
+            "Beef",
+            "Beef",
+            "Beef",
+            "Canned Food",
+            "Canned Food",
+            "Corn",
+            "Corn",
+            "Rice",
+            "Rice",
+            "Water",
+            "Water",
+            "Wheat",
+            "Wheat"
+        ],
+        "Zeroton Creek": [
+            "Beef",
+            "Canned Food",
+            "Corn",
+            "Fish",
+            "Fish",
+            "Rice",
+            "Water",
+            "Water",
+            "Water",
+            "Wheat"
+        ],
+        "Dustmarch": [
+            "Corn",
+            "Potatoes",
+            "Rice",
+            "Rice",
+            "Water",
+            "Water",
+            "Water"
+        ],
+        "Muckspur Terminal": [
+            "Beef",
+            "Canned Food",
+            "Corn",
+            "Corn",
+            "Corn",
+            "Corn",
+            "Corn",
+            "Potatoes",
+            "Rice",
+            "Rice",
+            "Water",
+            "Water",
+            "Water",
+            "Water",
+            "Water"
+        ]
+    },
+    "goods_types": [
+        "Food and Water"
+    ],
+    "goods_regular": {
+        "Water": {
+            "type": "Food and Water",
+            "avg": 250,
+            "rarity": 10
+        },
+        "Beef": {
+            "type": "Food and Water",
+            "avg": 500,
+            "rarity": 2
+        },
+        "Fish": {
+            "type": "Food and Water",
+            "avg": 550,
+            "rarity": 2
+        },
+        "Rice": {
+            "type": "Food and Water",
+            "avg": 350,
+            "rarity": 5
+        },
+        "Wheat": {
+            "type": "Food and Water",
+            "avg": 350,
+            "rarity": 6
+        },
+        "Corn": {
+            "type": "Food and Water",
+            "avg": 400,
+            "rarity": 4
+        },
+        "Potatoes": {
+            "type": "Food and Water",
+            "avg": 375,
+            "rarity": 4
+        },
+        "Canned Food": {
+            "type": "Food and Water",
+            "avg": 400,
+            "rarity": 7
+        }
+    },
+    "prices": {
+        "Echelon One": {
+            "Food and Water": 0
+        },
+        "Nova Junction": {
+            "Food and Water": -4
+        },
+        "Ionvale Depot": {
+            "Food and Water": -8
+        },
+        "Zeroton Creek": {
+            "Food and Water": 17
+        },
+        "Dustmarch": {
+            "Food and Water": 11
+        },
+        "Muckspur Terminal": {
+            "Food and Water": 0
+        }
+    },
+    "cargo": [],
+    "credits": 5000
+}
