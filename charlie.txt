@@ -1,0 +1,20 @@
+
+              Quadrant Charlie
+            F101              R25
+    Z=========X=========E1-----------NJ
+    ||  1      130Mi     | 1  60Mi  1 |
+  F ||  4              R | 2        0 |  R
+  1 XX  0              7 | 0        0 |  2
+  0 ||  M              4 | M        M |  5            
+  1 ||  i                | i   R25  i |      
+    ||       R50         |   /--------ID
+    MT-------------------ZC--  80Mi
+     | 1    120Mi       /
+  R  | 5             i /            |                  KEY                      |
+  5  | 0            M / R           | Z: Zenith; E1: Echelon One                |
+  0  | M           0 / 8            | NJ: Nova Junction; ID: Ionvale Depot      |
+     | i         20 / 8             | ZC: Zeroton Creek; DM: Dustmarch          |
+    DM--------------                | MT: Muckspur Terminal                     |
+            R88                     | R: Route F: Freeway  [X]Mi: Distance (Mi) |
+                                    | X Through Highway Indicates Closed        |
+                                    | NOTE: Map Not to Scale. Distances Approx. | 
